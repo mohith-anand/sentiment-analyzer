@@ -1,0 +1,35 @@
+# Ignore the virtual environment folder
+senti_venv/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore model artifacts (if not needed on GitHub)
+*.pkl
+*.joblib
+
+# Ignore logs and temp files
+*.log
+*.tmp
+
+# Ignore VS Code settings (optional, for personal settings)
+.vscode/
+
+# Ignore test results or coverage
+htmlcov/
+*.cover
+.coverage
+
+# Ignore GitHub Actions cache or builds (optional)
+.github/workflows/senti_venv/
+.github/workflows/__pycache__/
